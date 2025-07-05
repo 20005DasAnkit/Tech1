@@ -1,0 +1,32 @@
+/* index.css or App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+input,
+select,
+textarea,
+button {
+  background-color: #111;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #888;
+}

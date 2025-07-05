@@ -1,0 +1,35 @@
+/* src/pages/ProfilePage.css */
+.profile-container {
+  padding: 30px;
+  background-color: #87cefa;
+  min-height: 80vh;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.profile-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.profile-form button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
